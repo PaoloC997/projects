@@ -6,7 +6,7 @@ Languages: Javascript, Python.
  "Metamorfosi.py" uses libraries such as PyGame and PyFirmata to establish communication between an Arduino Mega and a Raspberry Pi. 
  Useful for controlling LEDs and playing back audio files.
  
-'Spectrogram.html' is a simple spectrogram which reads an audio file and displays a canvas on the browser.
+'Spectrogram.html' is a simple JavaScript-based spectrogram which reads any audio file and displays a canvas on the browser.
 
 
 
