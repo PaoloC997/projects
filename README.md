@@ -1,4 +1,4 @@
-# projects
+# Projects
 Some personal Sound Art and IoT projects. May be useful for anyone interested in Arduino, Raspberry Pi, Web Audio Api and IoT projects. Will update regularly.
 Languages: Javascript, Python.
 
