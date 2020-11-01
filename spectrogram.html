@@ -44,38 +44,21 @@
             const CTX = CVS.getContext('2d');
             const W = CVS.width = window.innerWidth;
             const H = CVS.height = window.innerHeight;
-
-
-
             const ACTX = new AudioContext();
             const ANALYSER = ACTX.createAnalyser();
 
             ANALYSER.fftSize = 4096;
-
-
-          
-
-
-
+            
             window.addEventListener('click', () => {
           
                 process();
             });
-
-
-
-
+            
             function process() {
 
                 const AUDIO = document.querySelector('audio');
                 const SOURCE = ACTX.createMediaElementSource(AUDIO);
-
-
-
-
-
-
-               
+                
                 SOURCE.connect(ANALYSER);
                 ANALYSER.connect(ACTX.destination);
 
